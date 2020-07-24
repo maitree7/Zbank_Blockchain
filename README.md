@@ -33,7 +33,7 @@ Tokens inherently have no value here, so we will provide pre-configured accounts
     
 * Create local network and Genesis Block using `puppeth`
 
- ![puppeth_config](Images/puppeth_config.PNG)
+ ![puppeth_config](Images/puppeth_config.png)
 
 * New Genesis configuration export json files into specific folder
 
@@ -60,7 +60,7 @@ Tokens inherently have no value here, so we will provide pre-configured accounts
       ./geth init mtestnet.json --datadir node1
     ```
     
- ![initialize_nodes](Images/initialize_nodes.PNG)
+ ![Initialize_nodes](Images/Initialize_nodes.png)
 
 </details>
 
@@ -85,7 +85,7 @@ Tokens inherently have no value here, so we will provide pre-configured accounts
 
 * Scroll up in the terminal window where `node1` is running, and copy the entire `enode://` address (including the last `@address:port` segment) of the first node located in the `Started P2P Networking` line:
 
-![encode](Images/encode.PNG)
+![encode](Images/encode.png)
 
 * Address is required by the second node in order to get location of first node
 
@@ -130,13 +130,13 @@ Tokens inherently have no value here, so we will provide pre-configured accounts
 
 * Make sure that to scroll down to choose `Custom` in the "Network" column to reveal more options like `Chain ID`:
  
-![custom_node](Images/custom_node.PNG)
+![custom_node](Images/custom_node.png)
 
 * The URL is pointing to the default RPC port on the local machine. Use `http://127.0.0.1:8545`
 
 * Once network is saved, double-check to see if the custom network is selected and connected.
     
-![eth_network_connection](Images/eth_network_connection.PNG)
+![eth_network_connection](Images/eth_network_connection.png)
     
 </details>
     
