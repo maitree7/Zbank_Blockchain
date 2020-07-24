@@ -37,6 +37,8 @@ Tokens inherently have no value here, so we will provide pre-configured accounts
 
 * New Genesis configuration export json files into specific folder
 
+![chain_id](Images/chain_id.png)
+
 </details>
 
 <details>
