@@ -33,7 +33,7 @@ Tokens inherently have no value here, so we will provide pre-configured accounts
     
 * Create local network and Genesis Block using `puppeth`
 
- ![puppeth_config](Images/puppeth_config.png)
+ ![puppeth_config (2)](Images/puppeth_config (2).png)
 
 * New Genesis configuration export json files into specific folder
 
